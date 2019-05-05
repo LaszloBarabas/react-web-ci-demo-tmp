@@ -29,9 +29,9 @@ describe('Smart Container component:   ', () => {
     }); 
     it ('TemperatureInTheLocationContainer should render correctly ', () => {
         var webcomponent = shallow( <TemperatureInTheLocationContainer /> ); 
-        //var result = 2; 
-        expect(webcomponent).toMatchSnapshot(); 
-        //expect(result).toEqual(3); 
+        var result = 2; 
+        //expect(webcomponent).toMatchSnapshot(); 
+        expect(result).toEqual(3); 
     }); 
 
 } ); 
