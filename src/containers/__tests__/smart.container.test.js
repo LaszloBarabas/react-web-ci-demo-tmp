@@ -32,6 +32,7 @@ describe('Smart Container component:   ', () => {
         //var result = 2; 
         expect(webcomponent).toMatchSnapshot(); 
         //expect(result).toEqual(3); 
+        
     }); 
 
 } ); 
