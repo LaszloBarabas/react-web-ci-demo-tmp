@@ -17,6 +17,11 @@ steps:
 
 - script: | 
     npm install 
+    npm run lint 
+  displayName: 'npm install and lint'
+  
+- script: | 
+    npm install 
     npm test 
   displayName: 'npm install and test'
 
